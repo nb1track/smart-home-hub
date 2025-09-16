@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "langasse_32",
+        "name": "Längasse 32",
+        "user_id": "0827678c0479453bb0289d2e10583f58",
+        "device_trackers": []
+      }
+    ]
+  }
+}

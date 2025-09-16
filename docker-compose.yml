@@ -1,0 +1,44 @@
+version: '3.7'
+
+services:
+  # Dienst 1: Home Assistant
+  homeassistant:
+    container_name: homeassistant
+    image: "ghcr.io/home-assistant/home-assistant:stable"
+    volumes:
+      - ./homeassistant_config:/config
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "8123:8123"
+    restart: unless-stopped
+    privileged: true
+    depends_on:
+      - mosquitto
+
+  # Dienst 2: Rhasspy
+  rhasspy:
+    container_name: rhasspy
+    image: "rhasspy/rhasspy"
+    command: --profile en
+    volumes:
+      - ./rhasspy_profiles:/profiles
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "12101:12101"
+    # devices:
+    #   - "/dev/snd:/dev/snd" # Erst auf dem Raspberry Pi wieder aktivieren!
+    restart: unless-stopped
+    depends_on:
+      - mosquitto
+
+  # Dienst 3: Mosquitto MQTT Broker
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto:2
+    volumes:
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
+    ports:
+      - "1883:1883"
+    restart: unless-stopped

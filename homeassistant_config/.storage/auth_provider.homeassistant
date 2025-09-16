@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "nb1track",
+        "password": "JDJiJDEyJHNyL0tHUHhjdXhwak94RjhPRk9VSU9QaUxMblhTRTEvZmg3MXU0VTRCd3NWRGNsTkdqcmsy"
+      }
+    ]
+  }
+}

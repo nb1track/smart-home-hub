@@ -1,0 +1,32 @@
+{
+    "handle": {
+        "system": "hass"
+    },
+    "home_assistant": {
+        "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiI3YWNjYmJjNTEzNmM0MTNmODE4MWRkZjY5Yjc2M2IyYyIsImlhdCI6MTc1ODA0ODY2NiwiZXhwIjoyMDczNDA4NjY2fQ.OsMHBXLQS8AkF-UJSzAmaPiQS32c9U8grCdlgsKIibY",
+        "url": "http://homeassistant:8123/api/"
+    },
+    "intent": {
+        "system": "fuzzywuzzy"
+    },
+    "microphone": {
+        "system": "arecord"
+    },
+    "mqtt": {
+        "enabled": "true",
+        "host": "mosquitto",
+        "port": "1883"
+    },
+    "sounds": {
+        "system": "aplay"
+    },
+    "speech_to_text": {
+        "system": "vosk"
+    },
+    "text_to_speech": {
+        "system": "picotts"
+    },
+    "wake": {
+        "system": "porcupine"
+    }
+}

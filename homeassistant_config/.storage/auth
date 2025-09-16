@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth",
+  "data": {
+    "users": [
+      {
+        "id": "dda4b89ef48647f090a2208da3030009",
+        "group_ids": [
+          "system-read-only"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Content",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "0827678c0479453bb0289d2e10583f58",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": true,
+        "is_active": true,
+        "name": "Längasse 32",
+        "system_generated": false,
+        "local_only": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "system-admin",
+        "name": "Administrators"
+      },
+      {
+        "id": "system-users",
+        "name": "Users"
+      },
+      {
+        "id": "system-read-only",
+        "name": "Read Only"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "f0d113c3f34c4b1f95de2e14865506c9",
+        "user_id": "0827678c0479453bb0289d2e10583f58",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "nb1track"
+        }
+      }
+    ],
+    "refresh_tokens": [
+      {
+        "id": "80a1d837b08048c5b528fc36ab3f5771",
+        "user_id": "dda4b89ef48647f090a2208da3030009",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2025-09-16T18:23:10.167947+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "ea4e5e250c7d931cc5ce14e6e5a0a89abd6e33d2c048d735fe624d332da199019d39bf63423416e81c57c8e227259f85e96844e1c6b144497b8e695dec7afb52",
+        "jwt_key": "8d5bad3e6f86b70f373243eadf3750dcc6825214d38f5625cffe07362296e3e3f6aa7388fd070e5c8053a665386d04e4029c32bb47804deb9ffb8bfcd3685fd6",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2025.9.3"
+      },
+      {
+        "id": "454c22a303bb4ddebe0cf42f22405696",
+        "user_id": "0827678c0479453bb0289d2e10583f58",
+        "client_id": "http://localhost:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2025-09-16T18:48:50.897658+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "aad98997902bef14c44fcf599d9f72edef5df7ca13690bc08724a0927cac22efa5f7d1a4b45bef9313c33ebda38addabb1c877563e16f9d472b2f6003beba5c9",
+        "jwt_key": "f4d9c49de272ef95dc1045656e9aa90702e3fb89875a1a77b370da5386208de3ef1a37c58f1c9de6717cc62e91986de2cd8932a63b67e26331dd9e6f98ee81f9",
+        "last_used_at": "2025-09-16T20:17:54.276285+00:00",
+        "last_used_ip": "172.67.68.90",
+        "expire_at": 1765829874.276285,
+        "credential_id": "f0d113c3f34c4b1f95de2e14865506c9",
+        "version": "2025.9.3"
+      },
+      {
+        "id": "7accbbc5136c413f8181ddf69b763b2c",
+        "user_id": "0827678c0479453bb0289d2e10583f58",
+        "client_id": null,
+        "client_name": "rhasspy",
+        "client_icon": null,
+        "token_type": "long_lived_access_token",
+        "created_at": "2025-09-16T18:51:06.161998+00:00",
+        "access_token_expiration": 315360000.0,
+        "token": "76abbb887a61d09a027152c15fffb29b4366691e57360a8de3b1cd0e835c2b68df85e60d8b0d0e82ca3077aabcb5496e562499ed940badefac499a33f1ac3d6d",
+        "jwt_key": "8aa9e8a1c73f54f5e407f346102db7a061520c1ce67d698e950f40c2507cee501e241e7b52aa2b4e94831aab7cf531d4a07a03984ec71175c76853404d763cc8",
+        "last_used_at": "2025-09-16T18:51:06.163594+00:00",
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2025.9.3"
+      }
+    ]
+  }
+}

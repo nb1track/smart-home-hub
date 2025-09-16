@@ -1,0 +1,971 @@
+2025-09-16 19:30:04,027 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 19:30:04,031 INFO supervisord started with pid 173
+2025-09-16 19:30:05,044 INFO spawned: 'mqtt' with pid 200
+2025-09-16 19:30:06,458 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:31:57,718 WARN received SIGHUP indicating restart request
+2025-09-16 19:31:57,723 INFO waiting for mqtt to die
+2025-09-16 19:31:57,839 INFO stopped: mqtt (exit status 0)
+2025-09-16 19:31:57,851 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 19:31:57,853 INFO supervisord started with pid 173
+2025-09-16 19:31:58,882 INFO spawned: 'mqtt' with pid 242
+2025-09-16 19:31:58,887 INFO spawned: 'intent_handling' with pid 243
+2025-09-16 19:31:59,883 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:31:59,885 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:32:06,546 WARN received SIGHUP indicating restart request
+2025-09-16 19:32:06,547 INFO waiting for mqtt, intent_handling to die
+2025-09-16 19:32:06,552 INFO stopped: intent_handling (terminated by SIGTERM)
+2025-09-16 19:32:07,561 INFO stopped: mqtt (exit status 0)
+2025-09-16 19:32:07,578 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 19:32:07,580 INFO supervisord started with pid 173
+2025-09-16 19:32:08,594 INFO spawned: 'mqtt' with pid 252
+2025-09-16 19:32:08,598 INFO spawned: 'intent_handling' with pid 253
+2025-09-16 19:32:09,589 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:32:10,593 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:38:42,070 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 19:38:42,078 INFO supervisord started with pid 173
+2025-09-16 19:38:43,093 INFO spawned: 'mqtt' with pid 200
+2025-09-16 19:38:43,097 INFO spawned: 'intent_handling' with pid 201
+2025-09-16 19:38:44,550 INFO success: mqtt entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:38:44,551 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:00,268 WARN received SIGHUP indicating restart request
+2025-09-16 19:41:00,269 INFO waiting for mqtt, intent_handling to die
+2025-09-16 19:41:00,272 INFO stopped: intent_handling (terminated by SIGTERM)
+2025-09-16 19:41:00,279 INFO stopped: mqtt (exit status 0)
+2025-09-16 19:41:00,292 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 19:41:00,294 INFO supervisord started with pid 173
+2025-09-16 19:41:01,311 INFO spawned: 'microphone' with pid 246
+2025-09-16 19:41:01,322 INFO spawned: 'speech_to_text' with pid 247
+2025-09-16 19:41:01,326 INFO spawned: 'speakers' with pid 248
+2025-09-16 19:41:01,330 INFO spawned: 'wake_word' with pid 255
+2025-09-16 19:41:01,335 INFO spawned: 'intent_recognition' with pid 260
+2025-09-16 19:41:01,338 INFO spawned: 'intent_handling' with pid 265
+2025-09-16 19:41:01,343 INFO spawned: 'text_to_speech' with pid 271
+2025-09-16 19:41:01,515 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:01,579 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:41:01,721 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:01,869 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:01,893 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:41:02,899 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:02,912 INFO spawned: 'speech_to_text' with pid 332
+2025-09-16 19:41:02,913 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:02,916 INFO spawned: 'wake_word' with pid 333
+2025-09-16 19:41:02,920 INFO spawned: 'intent_recognition' with pid 334
+2025-09-16 19:41:02,923 INFO spawned: 'intent_handling' with pid 339
+2025-09-16 19:41:02,927 INFO spawned: 'text_to_speech' with pid 347
+2025-09-16 19:41:03,034 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:03,204 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:41:03,287 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:03,391 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:41:04,394 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:05,433 INFO spawned: 'wake_word' with pid 396
+2025-09-16 19:41:05,442 INFO spawned: 'intent_recognition' with pid 397
+2025-09-16 19:41:05,445 INFO spawned: 'intent_handling' with pid 398
+2025-09-16 19:41:05,449 INFO spawned: 'text_to_speech' with pid 403
+2025-09-16 19:41:05,579 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:05,625 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:41:05,696 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:05,825 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:41:06,700 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:06,714 INFO spawned: 'speakers' with pid 439
+2025-09-16 19:41:06,754 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:06,803 INFO spawned: 'microphone' with pid 447
+2025-09-16 19:41:06,918 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:07,924 INFO spawned: 'microphone' with pid 461
+2025-09-16 19:41:07,926 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:08,448 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:09,451 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:09,455 INFO spawned: 'speech_to_text' with pid 471
+2025-09-16 19:41:09,459 INFO spawned: 'wake_word' with pid 472
+2025-09-16 19:41:09,463 INFO spawned: 'intent_recognition' with pid 473
+2025-09-16 19:41:09,468 INFO spawned: 'intent_handling' with pid 478
+2025-09-16 19:41:09,470 INFO spawned: 'text_to_speech' with pid 483
+2025-09-16 19:41:09,574 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:09,584 INFO gave up: wake_word entered FATAL state, too many start retries too quickly
+2025-09-16 19:41:09,611 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:41:09,737 INFO gave up: text_to_speech entered FATAL state, too many start retries too quickly
+2025-09-16 19:41:09,776 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:41:09,783 INFO gave up: intent_recognition entered FATAL state, too many start retries too quickly
+2025-09-16 19:41:09,783 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:10,788 INFO spawned: 'speech_to_text' with pid 535
+2025-09-16 19:41:10,789 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:11,019 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:11,831 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:12,841 INFO spawned: 'speakers' with pid 556
+2025-09-16 19:41:12,953 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:13,066 INFO spawned: 'speech_to_text' with pid 568
+2025-09-16 19:41:13,079 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:13,270 INFO spawned: 'microphone' with pid 589
+2025-09-16 19:41:14,365 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:14,366 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:14,376 INFO spawned: 'speakers' with pid 599
+2025-09-16 19:41:14,490 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:14,786 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:15,793 INFO spawned: 'intent_handling' with pid 611
+2025-09-16 19:41:16,937 INFO spawned: 'speakers' with pid 618
+2025-09-16 19:41:16,938 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:18,052 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:18,380 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:18,395 INFO spawned: 'speech_to_text' with pid 630
+2025-09-16 19:41:18,395 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:18,605 INFO spawned: 'microphone' with pid 651
+2025-09-16 19:41:18,629 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:19,710 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:19,714 INFO spawned: 'speech_to_text' with pid 661
+2025-09-16 19:41:20,037 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:20,982 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:21,990 INFO spawned: 'intent_handling' with pid 686
+2025-09-16 19:41:22,058 INFO spawned: 'speech_to_text' with pid 691
+2025-09-16 19:41:22,069 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:22,128 INFO spawned: 'speakers' with pid 705
+2025-09-16 19:41:22,181 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:22,294 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:23,330 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:23,336 INFO spawned: 'speakers' with pid 726
+2025-09-16 19:41:23,341 INFO spawned: 'intent_handling' with pid 727
+2025-09-16 19:41:23,478 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:23,748 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:24,753 INFO spawned: 'microphone' with pid 745
+2025-09-16 19:41:24,756 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:25,883 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:25,886 INFO spawned: 'intent_handling' with pid 755
+2025-09-16 19:41:26,033 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:27,394 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:28,400 INFO spawned: 'speech_to_text' with pid 762
+2025-09-16 19:41:28,474 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:28,639 INFO spawned: 'speakers' with pid 783
+2025-09-16 19:41:28,727 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:29,729 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:29,734 INFO spawned: 'speakers' with pid 795
+2025-09-16 19:41:29,739 INFO spawned: 'intent_handling' with pid 796
+2025-09-16 19:41:29,898 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:30,905 INFO spawned: 'microphone' with pid 814
+2025-09-16 19:41:30,906 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:30,907 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:31,043 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:32,056 INFO spawned: 'microphone' with pid 824
+2025-09-16 19:41:32,210 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:33,746 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:34,759 INFO spawned: 'microphone' with pid 834
+2025-09-16 19:41:34,763 INFO spawned: 'speech_to_text' with pid 835
+2025-09-16 19:41:34,954 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:34,964 INFO spawned: 'speakers' with pid 858
+2025-09-16 19:41:34,968 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:35,089 INFO spawned: 'intent_handling' with pid 866
+2025-09-16 19:41:36,259 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:36,259 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:36,259 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:36,259 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:40,166 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:40,201 INFO spawned: 'microphone' with pid 884
+2025-09-16 19:41:40,230 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:40,268 INFO spawned: 'speakers' with pid 889
+2025-09-16 19:41:40,270 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:40,294 INFO spawned: 'speech_to_text' with pid 894
+2025-09-16 19:41:40,295 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:40,357 INFO spawned: 'intent_handling' with pid 909
+2025-09-16 19:41:40,544 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:40,576 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:41,580 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:41,582 INFO spawned: 'speech_to_text' with pid 934
+2025-09-16 19:41:41,582 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:41,584 INFO spawned: 'intent_handling' with pid 935
+2025-09-16 19:41:41,775 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:41,855 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:43,865 INFO spawned: 'speech_to_text' with pid 962
+2025-09-16 19:41:43,869 INFO spawned: 'intent_handling' with pid 963
+2025-09-16 19:41:45,084 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:45,085 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:45,402 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:45,404 INFO spawned: 'microphone' with pid 990
+2025-09-16 19:41:45,415 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:45,507 INFO spawned: 'speakers' with pid 997
+2025-09-16 19:41:45,520 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:46,588 INFO spawned: 'microphone' with pid 1012
+2025-09-16 19:41:46,591 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:46,726 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:47,452 WARN received SIGHUP indicating restart request
+2025-09-16 19:41:47,453 INFO waiting for microphone, speech_to_text, speakers, intent_handling to die
+2025-09-16 19:41:48,459 INFO stopped: intent_handling (terminated by SIGTERM)
+2025-09-16 19:41:49,100 INFO stopped: speakers (terminated by SIGTERM)
+2025-09-16 19:41:49,106 INFO stopped: speech_to_text (terminated by SIGTERM)
+2025-09-16 19:41:49,115 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 19:41:49,116 INFO supervisord started with pid 173
+2025-09-16 19:41:50,085 INFO spawned: 'microphone' with pid 1022
+2025-09-16 19:41:50,089 INFO spawned: 'speech_to_text' with pid 1023
+2025-09-16 19:41:50,092 INFO spawned: 'speakers' with pid 1024
+2025-09-16 19:41:50,099 INFO spawned: 'wake_word' with pid 1029
+2025-09-16 19:41:50,102 INFO spawned: 'intent_recognition' with pid 1034
+2025-09-16 19:41:50,105 INFO spawned: 'intent_handling' with pid 1040
+2025-09-16 19:41:50,107 INFO spawned: 'text_to_speech' with pid 1046
+2025-09-16 19:41:50,202 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:50,324 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:50,420 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:50,452 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:51,476 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:51,481 INFO spawned: 'speech_to_text' with pid 1108
+2025-09-16 19:41:51,484 INFO spawned: 'speakers' with pid 1109
+2025-09-16 19:41:51,487 INFO spawned: 'wake_word' with pid 1110
+2025-09-16 19:41:51,489 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:51,492 INFO spawned: 'intent_handling' with pid 1117
+2025-09-16 19:41:51,493 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:51,569 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:51,652 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:51,697 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:52,744 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:53,751 INFO spawned: 'speakers' with pid 1156
+2025-09-16 19:41:53,755 INFO spawned: 'wake_word' with pid 1157
+2025-09-16 19:41:53,758 INFO spawned: 'intent_handling' with pid 1158
+2025-09-16 19:41:53,849 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:53,911 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:41:53,952 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:55,318 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:41:55,419 INFO spawned: 'text_to_speech' with pid 1183
+2025-09-16 19:41:55,445 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:55,482 INFO spawned: 'microphone' with pid 1188
+2025-09-16 19:41:55,518 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:41:55,522 INFO spawned: 'intent_recognition' with pid 1195
+2025-09-16 19:41:55,532 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:41:55,651 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:56,761 INFO spawned: 'microphone' with pid 1221
+2025-09-16 19:41:56,765 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:56,768 INFO spawned: 'text_to_speech' with pid 1222
+2025-09-16 19:41:56,804 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:41:56,858 INFO spawned: 'speech_to_text' with pid 1233
+2025-09-16 19:41:56,859 INFO spawned: 'wake_word' with pid 1234
+2025-09-16 19:41:56,872 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:41:56,906 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:41:56,925 INFO spawned: 'speakers' with pid 1258
+2025-09-16 19:41:56,933 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:41:57,064 INFO gave up: wake_word entered FATAL state, too many start retries too quickly
+2025-09-16 19:41:57,065 INFO spawned: 'intent_handling' with pid 1273
+2025-09-16 19:41:57,173 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:41:58,181 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:58,181 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:41:58,181 INFO gave up: intent_handling entered FATAL state, too many start retries too quickly
+2025-09-16 19:41:59,196 INFO spawned: 'microphone' with pid 1286
+2025-09-16 19:41:59,203 INFO spawned: 'text_to_speech' with pid 1287
+2025-09-16 19:41:59,336 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:42:00,360 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:00,886 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:01,893 INFO spawned: 'intent_recognition' with pid 1303
+2025-09-16 19:42:02,141 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:02,179 INFO spawned: 'speakers' with pid 1322
+2025-09-16 19:42:02,180 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:02,196 INFO spawned: 'speech_to_text' with pid 1329
+2025-09-16 19:42:02,226 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:02,449 INFO spawned: 'text_to_speech' with pid 1357
+2025-09-16 19:42:02,533 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:42:03,535 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:03,536 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:03,539 INFO spawned: 'intent_recognition' with pid 1364
+2025-09-16 19:42:03,540 INFO gave up: text_to_speech entered FATAL state, too many start retries too quickly
+2025-09-16 19:42:03,799 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:04,408 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:42:05,416 INFO spawned: 'microphone' with pid 1385
+2025-09-16 19:42:06,563 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:06,568 INFO spawned: 'intent_recognition' with pid 1395
+2025-09-16 19:42:06,853 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:07,365 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:07,458 INFO spawned: 'speakers' with pid 1416
+2025-09-16 19:42:07,515 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:07,563 INFO spawned: 'speech_to_text' with pid 1424
+2025-09-16 19:42:07,584 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:08,830 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:08,832 INFO spawned: 'speakers' with pid 1449
+2025-09-16 19:42:08,955 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:09,961 INFO spawned: 'intent_recognition' with pid 1461
+2025-09-16 19:42:10,607 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:42:11,617 INFO spawned: 'microphone' with pid 1482
+2025-09-16 19:42:11,621 INFO spawned: 'speakers' with pid 1483
+2025-09-16 19:42:11,622 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:11,776 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:42:12,779 INFO spawned: 'microphone' with pid 1504
+2025-09-16 19:42:12,780 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:12,869 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:12,911 INFO spawned: 'speech_to_text' with pid 1512
+2025-09-16 19:42:12,929 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:42:13,136 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:14,141 INFO spawned: 'speech_to_text' with pid 1535
+2025-09-16 19:42:14,436 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:15,211 INFO spawned: 'microphone' with pid 1556
+2025-09-16 19:42:15,253 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:15,336 INFO spawned: 'intent_recognition' with pid 1563
+2025-09-16 19:42:15,351 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:42:15,578 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:16,583 INFO spawned: 'speech_to_text' with pid 1587
+2025-09-16 19:42:16,589 INFO spawned: 'intent_recognition' with pid 1588
+2025-09-16 19:42:16,781 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:16,905 INFO spawned: 'speakers' with pid 1627
+2025-09-16 19:42:16,956 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:17,993 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:17,994 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:19,003 INFO spawned: 'microphone' with pid 1641
+2025-09-16 19:42:19,007 INFO spawned: 'intent_recognition' with pid 1642
+2025-09-16 19:42:19,289 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:42:19,338 INFO gave up: microphone entered FATAL state, too many start retries too quickly
+2025-09-16 19:42:19,362 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:22,035 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:22,039 INFO spawned: 'speakers' with pid 1672
+2025-09-16 19:42:22,042 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:22,144 INFO spawned: 'speech_to_text' with pid 1680
+2025-09-16 19:42:22,167 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:22,409 INFO spawned: 'intent_recognition' with pid 1705
+2025-09-16 19:42:23,672 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:23,708 INFO spawned: 'speakers' with pid 1726
+2025-09-16 19:42:23,710 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:24,836 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:27,515 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:27,680 INFO spawned: 'speech_to_text' with pid 1738
+2025-09-16 19:42:27,770 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:27,941 INFO spawned: 'intent_recognition' with pid 1759
+2025-09-16 19:42:27,976 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:28,197 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:28,855 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:29,864 INFO spawned: 'speech_to_text' with pid 1780
+2025-09-16 19:42:29,874 INFO spawned: 'speakers' with pid 1781
+2025-09-16 19:42:29,884 INFO spawned: 'intent_recognition' with pid 1785
+2025-09-16 19:42:30,753 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:31,759 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:31,759 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:32,809 INFO spawned: 'speech_to_text' with pid 2346
+2025-09-16 19:42:33,775 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:33,843 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:34,850 INFO spawned: 'speech_to_text' with pid 2879
+2025-09-16 19:42:35,113 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:35,150 INFO spawned: 'speakers' with pid 2900
+2025-09-16 19:42:35,258 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:35,545 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:35,632 INFO spawned: 'intent_recognition' with pid 3424
+2025-09-16 19:42:35,936 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:36,215 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:37,231 INFO spawned: 'speech_to_text' with pid 3445
+2025-09-16 19:42:37,236 INFO spawned: 'speakers' with pid 3446
+2025-09-16 19:42:37,238 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:37,473 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:37,819 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:38,831 INFO spawned: 'speech_to_text' with pid 3990
+2025-09-16 19:42:40,245 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:40,248 INFO spawned: 'speakers' with pid 4523
+2025-09-16 19:42:40,482 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:40,998 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:42,006 INFO spawned: 'intent_recognition' with pid 4535
+2025-09-16 19:42:42,800 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:43,812 INFO spawned: 'speakers' with pid 4556
+2025-09-16 19:42:43,816 INFO spawned: 'intent_recognition' with pid 4557
+2025-09-16 19:42:43,982 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:42:44,090 INFO gave up: speakers entered FATAL state, too many start retries too quickly
+2025-09-16 19:42:44,114 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:44,354 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:45,362 INFO spawned: 'speech_to_text' with pid 4589
+2025-09-16 19:42:45,836 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:46,846 INFO spawned: 'speech_to_text' with pid 5122
+2025-09-16 19:42:46,849 INFO spawned: 'intent_recognition' with pid 5123
+2025-09-16 19:42:48,326 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:48,328 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:42:52,280 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:52,348 INFO spawned: 'intent_recognition' with pid 5676
+2025-09-16 19:42:52,516 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:52,750 INFO spawned: 'speech_to_text' with pid 5697
+2025-09-16 19:42:52,815 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:53,324 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:54,331 INFO spawned: 'speech_to_text' with pid 6230
+2025-09-16 19:42:54,334 INFO spawned: 'intent_recognition' with pid 6231
+2025-09-16 19:42:54,702 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:54,867 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:42:56,875 INFO spawned: 'speech_to_text' with pid 6784
+2025-09-16 19:42:56,878 INFO spawned: 'intent_recognition' with pid 6785
+2025-09-16 19:42:57,224 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:42:58,395 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:00,407 INFO spawned: 'intent_recognition' with pid 7338
+2025-09-16 19:43:01,707 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:02,521 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:03,526 INFO spawned: 'speech_to_text' with pid 7359
+2025-09-16 19:43:04,014 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:05,035 INFO spawned: 'speech_to_text' with pid 7892
+2025-09-16 19:43:05,548 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:05,777 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:06,783 INFO spawned: 'intent_recognition' with pid 8425
+2025-09-16 19:43:07,067 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:08,074 INFO spawned: 'speech_to_text' with pid 8446
+2025-09-16 19:43:08,078 INFO spawned: 'intent_recognition' with pid 8447
+2025-09-16 19:43:09,563 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:09,564 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:13,419 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:13,574 INFO spawned: 'intent_recognition' with pid 9000
+2025-09-16 19:43:13,632 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:13,807 INFO spawned: 'speech_to_text' with pid 9021
+2025-09-16 19:43:13,831 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:15,203 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:15,207 INFO spawned: 'intent_recognition' with pid 9554
+2025-09-16 19:43:15,461 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:17,470 INFO spawned: 'intent_recognition' with pid 9575
+2025-09-16 19:43:18,737 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:19,269 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:20,280 INFO spawned: 'speech_to_text' with pid 9596
+2025-09-16 19:43:21,671 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:22,795 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:23,803 INFO spawned: 'intent_recognition' with pid 10129
+2025-09-16 19:43:24,069 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:25,084 INFO spawned: 'intent_recognition' with pid 10150
+2025-09-16 19:43:25,808 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:26,817 INFO spawned: 'speech_to_text' with pid 10171
+2025-09-16 19:43:26,818 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:27,300 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:28,310 INFO spawned: 'speech_to_text' with pid 10704
+2025-09-16 19:43:29,695 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:30,487 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:31,498 INFO spawned: 'intent_recognition' with pid 11237
+2025-09-16 19:43:31,826 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:32,836 INFO spawned: 'intent_recognition' with pid 11258
+2025-09-16 19:43:33,840 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:33,840 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:34,849 INFO spawned: 'speech_to_text' with pid 11279
+2025-09-16 19:43:36,305 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:38,237 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:39,251 INFO spawned: 'intent_recognition' with pid 11812
+2025-09-16 19:43:39,585 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:40,464 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:41,474 INFO spawned: 'speech_to_text' with pid 11833
+2025-09-16 19:43:41,481 INFO spawned: 'intent_recognition' with pid 11834
+2025-09-16 19:43:42,098 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:43,106 INFO spawned: 'speech_to_text' with pid 12387
+2025-09-16 19:43:43,107 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:43,553 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:45,573 INFO spawned: 'speech_to_text' with pid 12920
+2025-09-16 19:43:46,100 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:46,898 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:47,914 INFO spawned: 'intent_recognition' with pid 13453
+2025-09-16 19:43:48,206 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:49,218 INFO spawned: 'speech_to_text' with pid 13474
+2025-09-16 19:43:49,222 INFO spawned: 'intent_recognition' with pid 13475
+2025-09-16 19:43:49,624 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:49,858 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:43:50,864 INFO gave up: speech_to_text entered FATAL state, too many start retries too quickly
+2025-09-16 19:43:51,877 INFO spawned: 'intent_recognition' with pid 14028
+2025-09-16 19:43:53,132 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:43:57,252 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:43:58,261 INFO spawned: 'intent_recognition' with pid 14049
+2025-09-16 19:43:59,617 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:44:03,748 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:04,758 INFO spawned: 'intent_recognition' with pid 14070
+2025-09-16 19:44:05,163 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:06,172 INFO spawned: 'intent_recognition' with pid 14091
+2025-09-16 19:44:07,460 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:44:11,615 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:12,620 INFO spawned: 'intent_recognition' with pid 14112
+2025-09-16 19:44:13,052 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:14,056 INFO spawned: 'intent_recognition' with pid 14133
+2025-09-16 19:44:15,607 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:44:19,704 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:20,714 INFO spawned: 'intent_recognition' with pid 14154
+2025-09-16 19:44:21,040 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:22,060 INFO spawned: 'intent_recognition' with pid 14175
+2025-09-16 19:44:22,595 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:24,613 INFO spawned: 'intent_recognition' with pid 14196
+2025-09-16 19:44:24,965 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:28,009 INFO spawned: 'intent_recognition' with pid 14217
+2025-09-16 19:44:29,330 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:44:33,498 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:34,519 INFO spawned: 'intent_recognition' with pid 14238
+2025-09-16 19:44:34,808 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:35,817 INFO spawned: 'intent_recognition' with pid 14259
+2025-09-16 19:44:36,063 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:38,101 INFO spawned: 'intent_recognition' with pid 14280
+2025-09-16 19:44:39,447 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:44:43,575 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:44,585 INFO spawned: 'intent_recognition' with pid 14301
+2025-09-16 19:44:45,957 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:44:50,019 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:51,024 INFO spawned: 'intent_recognition' with pid 14322
+2025-09-16 19:44:51,322 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:52,330 INFO spawned: 'intent_recognition' with pid 14343
+2025-09-16 19:44:53,574 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:44:57,685 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:44:58,697 INFO spawned: 'intent_recognition' with pid 14364
+2025-09-16 19:45:00,021 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:45:04,158 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:05,179 INFO spawned: 'intent_recognition' with pid 14385
+2025-09-16 19:45:06,486 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:45:10,600 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:11,618 INFO spawned: 'intent_recognition' with pid 14406
+2025-09-16 19:45:12,026 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:13,037 INFO spawned: 'intent_recognition' with pid 14427
+2025-09-16 19:45:14,307 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:45:18,455 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:19,477 INFO spawned: 'intent_recognition' with pid 14448
+2025-09-16 19:45:19,868 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:20,876 INFO spawned: 'intent_recognition' with pid 14469
+2025-09-16 19:45:21,160 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:23,173 INFO spawned: 'intent_recognition' with pid 14490
+2025-09-16 19:45:23,400 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:26,420 INFO spawned: 'intent_recognition' with pid 14511
+2025-09-16 19:45:26,699 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:45:27,702 INFO gave up: intent_recognition entered FATAL state, too many start retries too quickly
+2025-09-16 19:56:50,815 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 19:56:50,824 INFO supervisord started with pid 173
+2025-09-16 19:56:51,832 INFO spawned: 'microphone' with pid 200
+2025-09-16 19:56:51,837 INFO spawned: 'speech_to_text' with pid 201
+2025-09-16 19:56:51,843 INFO spawned: 'speakers' with pid 204
+2025-09-16 19:56:51,849 INFO spawned: 'wake_word' with pid 210
+2025-09-16 19:56:51,856 INFO spawned: 'intent_recognition' with pid 215
+2025-09-16 19:56:51,860 INFO spawned: 'intent_handling' with pid 220
+2025-09-16 19:56:51,863 INFO spawned: 'text_to_speech' with pid 224
+2025-09-16 19:56:52,062 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:56:52,208 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:56:52,254 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:56:52,298 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:56:53,713 INFO spawned: 'microphone' with pid 798
+2025-09-16 19:56:53,717 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:56:53,717 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:56:53,728 INFO spawned: 'wake_word' with pid 799
+2025-09-16 19:56:53,734 INFO spawned: 'intent_recognition' with pid 804
+2025-09-16 19:56:53,737 INFO spawned: 'intent_handling' with pid 808
+2025-09-16 19:56:53,738 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:56:53,846 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:56:53,978 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:56:55,070 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:56:55,075 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:56:56,219 INFO spawned: 'microphone' with pid 844
+2025-09-16 19:56:56,241 INFO spawned: 'wake_word' with pid 845
+2025-09-16 19:56:56,384 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:56:56,755 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:56:57,303 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:56:57,331 INFO spawned: 'text_to_speech' with pid 862
+2025-09-16 19:56:57,333 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:56:57,500 INFO spawned: 'speakers' with pid 869
+2025-09-16 19:56:57,517 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:56:57,853 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:56:58,861 INFO spawned: 'speech_to_text' with pid 881
+2025-09-16 19:56:58,862 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:56:58,864 INFO spawned: 'text_to_speech' with pid 882
+2025-09-16 19:56:59,052 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:56:59,087 INFO spawned: 'intent_handling' with pid 907
+2025-09-16 19:56:59,153 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:56:59,181 INFO spawned: 'intent_recognition' with pid 914
+2025-09-16 19:56:59,263 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:56:59,403 INFO spawned: 'wake_word' with pid 1447
+2025-09-16 19:56:59,462 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 19:56:59,571 INFO gave up: wake_word entered FATAL state, too many start retries too quickly
+2025-09-16 19:56:59,608 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:00,615 INFO spawned: 'microphone' with pid 1457
+2025-09-16 19:57:00,618 INFO spawned: 'speech_to_text' with pid 1458
+2025-09-16 19:57:00,619 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:00,624 INFO spawned: 'intent_handling' with pid 1459
+2025-09-16 19:57:00,626 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:00,866 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 19:57:00,880 INFO gave up: microphone entered FATAL state, too many start retries too quickly
+2025-09-16 19:57:01,178 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:02,183 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:02,646 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:03,656 INFO spawned: 'speech_to_text' with pid 2007
+2025-09-16 19:57:03,659 INFO spawned: 'speakers' with pid 2008
+2025-09-16 19:57:04,059 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:04,212 INFO spawned: 'text_to_speech' with pid 2552
+2025-09-16 19:57:04,257 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:04,524 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:05,528 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:05,530 INFO spawned: 'intent_recognition' with pid 2559
+2025-09-16 19:57:05,530 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:05,870 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:06,877 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:06,883 INFO spawned: 'intent_handling' with pid 2580
+2025-09-16 19:57:08,028 INFO spawned: 'speech_to_text' with pid 2587
+2025-09-16 19:57:08,028 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:08,949 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:09,025 INFO spawned: 'speakers' with pid 3120
+2025-09-16 19:57:09,040 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:09,261 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:09,292 INFO spawned: 'speech_to_text' with pid 3128
+2025-09-16 19:57:09,372 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:09,379 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:09,949 INFO spawned: 'text_to_speech' with pid 3153
+2025-09-16 19:57:10,179 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:10,381 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:10,383 INFO spawned: 'speakers' with pid 3672
+2025-09-16 19:57:10,458 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:10,489 INFO spawned: 'speech_to_text' with pid 3680
+2025-09-16 19:57:10,879 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:10,903 INFO spawned: 'intent_recognition' with pid 3705
+2025-09-16 19:57:11,463 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:11,475 INFO spawned: 'text_to_speech' with pid 4236
+2025-09-16 19:57:11,552 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:11,749 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:11,788 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:12,102 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:13,115 INFO spawned: 'intent_recognition' with pid 4245
+2025-09-16 19:57:13,122 INFO spawned: 'intent_handling' with pid 4246
+2025-09-16 19:57:14,566 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:14,567 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:14,577 INFO spawned: 'text_to_speech' with pid 4273
+2025-09-16 19:57:15,557 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:16,546 INFO spawned: 'speakers' with pid 4280
+2025-09-16 19:57:16,548 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:16,708 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:16,718 INFO spawned: 'speech_to_text' with pid 4288
+2025-09-16 19:57:17,424 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:18,398 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:18,439 INFO spawned: 'speech_to_text' with pid 4825
+2025-09-16 19:57:18,440 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:18,585 INFO spawned: 'intent_handling' with pid 4844
+2025-09-16 19:57:18,659 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:18,660 INFO spawned: 'intent_recognition' with pid 4851
+2025-09-16 19:57:18,953 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:19,060 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:19,813 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:19,831 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:20,841 INFO spawned: 'intent_recognition' with pid 5386
+2025-09-16 19:57:20,845 INFO spawned: 'text_to_speech' with pid 5387
+2025-09-16 19:57:21,154 INFO spawned: 'speech_to_text' with pid 5414
+2025-09-16 19:57:21,184 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:21,694 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:21,757 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:22,765 INFO spawned: 'speakers' with pid 5947
+2025-09-16 19:57:22,766 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:23,762 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:23,769 INFO spawned: 'intent_recognition' with pid 5959
+2025-09-16 19:57:23,827 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:24,039 INFO spawned: 'intent_handling' with pid 5980
+2025-09-16 19:57:24,070 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:24,176 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:25,183 INFO spawned: 'speech_to_text' with pid 5987
+2025-09-16 19:57:25,187 INFO spawned: 'intent_handling' with pid 5988
+2025-09-16 19:57:25,384 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:25,706 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 19:57:26,010 INFO gave up: speech_to_text entered FATAL state, too many start retries too quickly
+2025-09-16 19:57:26,033 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:27,063 INFO spawned: 'text_to_speech' with pid 6527
+2025-09-16 19:57:27,182 INFO spawned: 'intent_recognition' with pid 6534
+2025-09-16 19:57:27,198 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:27,494 INFO spawned: 'intent_handling' with pid 6555
+2025-09-16 19:57:27,529 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 19:57:27,615 INFO gave up: intent_recognition entered FATAL state, too many start retries too quickly
+2025-09-16 19:57:27,938 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:28,948 INFO spawned: 'speakers' with pid 6562
+2025-09-16 19:57:28,949 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:28,956 INFO spawned: 'text_to_speech' with pid 6563
+2025-09-16 19:57:29,071 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:30,074 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:31,084 INFO spawned: 'text_to_speech' with pid 6581
+2025-09-16 19:57:32,230 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:32,681 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:33,709 INFO spawned: 'intent_handling' with pid 6588
+2025-09-16 19:57:33,902 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:34,125 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:35,138 INFO spawned: 'speakers' with pid 6595
+2025-09-16 19:57:35,142 INFO spawned: 'intent_handling' with pid 6596
+2025-09-16 19:57:35,264 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:35,285 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:36,291 INFO spawned: 'speakers' with pid 6614
+2025-09-16 19:57:36,291 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:36,370 INFO spawned: 'text_to_speech' with pid 6622
+2025-09-16 19:57:36,388 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:36,449 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:37,461 INFO spawned: 'intent_handling' with pid 6633
+2025-09-16 19:57:37,469 INFO spawned: 'text_to_speech' with pid 6634
+2025-09-16 19:57:38,612 INFO spawned: 'speakers' with pid 6647
+2025-09-16 19:57:38,614 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:38,615 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:38,742 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:41,753 INFO spawned: 'speakers' with pid 6659
+2025-09-16 19:57:42,647 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:42,659 INFO spawned: 'text_to_speech' with pid 6671
+2025-09-16 19:57:42,659 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:42,750 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:42,751 INFO spawned: 'intent_handling' with pid 6678
+2025-09-16 19:57:42,873 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:43,881 INFO spawned: 'intent_handling' with pid 6685
+2025-09-16 19:57:43,882 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:44,042 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:46,073 INFO spawned: 'intent_handling' with pid 6692
+2025-09-16 19:57:46,239 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:46,932 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:47,795 INFO spawned: 'speakers' with pid 6699
+2025-09-16 19:57:47,823 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:47,893 INFO spawned: 'text_to_speech' with pid 6707
+2025-09-16 19:57:48,977 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:48,980 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:49,992 INFO spawned: 'intent_handling' with pid 6718
+2025-09-16 19:57:50,188 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 19:57:51,191 INFO gave up: intent_handling entered FATAL state, too many start retries too quickly
+2025-09-16 19:57:52,947 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:52,986 INFO spawned: 'speakers' with pid 6725
+2025-09-16 19:57:53,008 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:53,080 INFO spawned: 'text_to_speech' with pid 6733
+2025-09-16 19:57:54,178 INFO success: speakers entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:54,179 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:57:58,127 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:58,195 INFO spawned: 'speakers' with pid 6744
+2025-09-16 19:57:58,211 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:58,295 INFO spawned: 'text_to_speech' with pid 6752
+2025-09-16 19:57:58,313 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:57:58,380 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:59,386 INFO spawned: 'speakers' with pid 6763
+2025-09-16 19:57:59,390 INFO spawned: 'text_to_speech' with pid 6764
+2025-09-16 19:57:59,499 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:57:59,507 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:58:01,525 INFO spawned: 'speakers' with pid 6782
+2025-09-16 19:58:01,528 INFO spawned: 'text_to_speech' with pid 6783
+2025-09-16 19:58:01,639 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:58:02,643 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:58:04,657 INFO spawned: 'speakers' with pid 6801
+2025-09-16 19:58:04,795 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 19:58:05,802 INFO gave up: speakers entered FATAL state, too many start retries too quickly
+2025-09-16 19:58:06,667 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:07,799 INFO spawned: 'text_to_speech' with pid 6813
+2025-09-16 19:58:07,984 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:09,009 INFO spawned: 'text_to_speech' with pid 6820
+2025-09-16 19:58:10,193 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:58:14,281 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:15,311 INFO spawned: 'text_to_speech' with pid 6827
+2025-09-16 19:58:16,439 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 19:58:20,501 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:21,509 INFO spawned: 'text_to_speech' with pid 6834
+2025-09-16 19:58:21,640 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:22,651 INFO spawned: 'text_to_speech' with pid 6841
+2025-09-16 19:58:22,766 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:24,788 INFO spawned: 'text_to_speech' with pid 6848
+2025-09-16 19:58:24,963 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:27,982 INFO spawned: 'text_to_speech' with pid 6855
+2025-09-16 19:58:28,100 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 19:58:29,104 INFO gave up: text_to_speech entered FATAL state, too many start retries too quickly
+2025-09-16 20:00:25,898 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-09-16 20:00:25,907 INFO supervisord started with pid 172
+2025-09-16 20:00:26,933 INFO spawned: 'microphone' with pid 199
+2025-09-16 20:00:26,942 INFO spawned: 'speech_to_text' with pid 200
+2025-09-16 20:00:26,952 INFO spawned: 'speakers' with pid 201
+2025-09-16 20:00:26,956 INFO spawned: 'wake_word' with pid 204
+2025-09-16 20:00:26,962 INFO spawned: 'intent_recognition' with pid 208
+2025-09-16 20:00:26,967 INFO spawned: 'intent_handling' with pid 214
+2025-09-16 20:00:26,976 INFO spawned: 'text_to_speech' with pid 222
+2025-09-16 20:00:27,392 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 20:00:27,545 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:27,657 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:27,768 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 20:00:27,915 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:27,959 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:27,960 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:27,963 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:27,978 INFO spawned: 'intent_recognition' with pid 285
+2025-09-16 20:00:28,474 INFO spawned: 'wake_word' with pid 816
+2025-09-16 20:00:28,594 INFO spawned: 'text_to_speech' with pid 823
+2025-09-16 20:00:28,594 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:28,607 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:28,612 INFO spawned: 'speech_to_text' with pid 831
+2025-09-16 20:00:28,622 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 20:00:28,738 INFO spawned: 'intent_handling' with pid 845
+2025-09-16 20:00:28,778 INFO spawned: 'speakers' with pid 857
+2025-09-16 20:00:28,779 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:29,104 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:29,116 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 20:00:30,510 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:30,521 INFO spawned: 'intent_recognition' with pid 1385
+2025-09-16 20:00:31,111 INFO spawned: 'wake_word' with pid 1406
+2025-09-16 20:00:31,118 INFO spawned: 'intent_handling' with pid 1407
+2025-09-16 20:00:31,126 INFO spawned: 'text_to_speech' with pid 1410
+2025-09-16 20:00:31,139 INFO spawned: 'speakers' with pid 1419
+2025-09-16 20:00:31,170 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:31,274 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 20:00:31,392 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 20:00:31,410 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:32,413 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:32,818 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:33,833 INFO spawned: 'microphone' with pid 1440
+2025-09-16 20:00:33,838 INFO spawned: 'intent_recognition' with pid 1441
+2025-09-16 20:00:34,140 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:34,561 INFO spawned: 'speakers' with pid 1471
+2025-09-16 20:00:34,564 INFO spawned: 'wake_word' with pid 1472
+2025-09-16 20:00:34,569 INFO spawned: 'intent_handling' with pid 1473
+2025-09-16 20:00:34,788 INFO exited: wake_word (exit status 1; not expected)
+2025-09-16 20:00:34,884 INFO gave up: wake_word entered FATAL state, too many start retries too quickly
+2025-09-16 20:00:34,886 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:34,909 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:34,917 INFO spawned: 'speech_to_text' with pid 1496
+2025-09-16 20:00:34,971 INFO exited: speakers (exit status 1; not expected)
+2025-09-16 20:00:35,040 INFO gave up: speakers entered FATAL state, too many start retries too quickly
+2025-09-16 20:00:35,924 INFO spawned: 'microphone' with pid 1519
+2025-09-16 20:00:35,925 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:35,925 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:36,098 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:36,311 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:36,369 INFO spawned: 'speech_to_text' with pid 2041
+2025-09-16 20:00:36,381 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:36,672 INFO spawned: 'text_to_speech' with pid 2062
+2025-09-16 20:00:37,869 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:37,870 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:38,883 INFO spawned: 'microphone' with pid 2581
+2025-09-16 20:00:39,295 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:40,063 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:40,070 INFO spawned: 'intent_recognition' with pid 2591
+2025-09-16 20:00:40,106 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:40,318 INFO spawned: 'intent_handling' with pid 2612
+2025-09-16 20:00:40,349 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:40,432 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:41,439 INFO spawned: 'intent_recognition' with pid 2619
+2025-09-16 20:00:41,443 INFO spawned: 'intent_handling' with pid 2620
+2025-09-16 20:00:41,783 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:41,882 INFO spawned: 'text_to_speech' with pid 2647
+2025-09-16 20:00:41,971 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:42,016 INFO spawned: 'speech_to_text' with pid 2654
+2025-09-16 20:00:42,451 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:42,451 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:43,603 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:43,604 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:44,137 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:45,149 INFO spawned: 'microphone' with pid 3187
+2025-09-16 20:00:46,385 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:46,699 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:46,736 INFO spawned: 'intent_handling' with pid 3197
+2025-09-16 20:00:46,800 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:46,896 INFO spawned: 'intent_recognition' with pid 3204
+2025-09-16 20:00:46,917 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:47,077 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:47,269 INFO spawned: 'text_to_speech' with pid 3225
+2025-09-16 20:00:47,301 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:47,358 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:47,864 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:48,879 INFO spawned: 'speech_to_text' with pid 3232
+2025-09-16 20:00:48,885 INFO spawned: 'intent_recognition' with pid 3233
+2025-09-16 20:00:48,897 INFO spawned: 'intent_handling' with pid 3234
+2025-09-16 20:00:48,901 INFO spawned: 'text_to_speech' with pid 3239
+2025-09-16 20:00:49,202 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:49,304 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:49,773 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:50,420 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:50,491 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:51,517 INFO spawned: 'microphone' with pid 3800
+2025-09-16 20:00:51,524 INFO spawned: 'speech_to_text' with pid 3801
+2025-09-16 20:00:51,530 INFO spawned: 'intent_handling' with pid 3802
+2025-09-16 20:00:51,536 INFO spawned: 'text_to_speech' with pid 3807
+2025-09-16 20:00:51,771 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:00:52,148 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:53,151 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:53,152 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:54,174 INFO spawned: 'speech_to_text' with pid 4357
+2025-09-16 20:00:54,478 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:54,513 INFO spawned: 'intent_recognition' with pid 4378
+2025-09-16 20:00:54,776 INFO spawned: 'intent_handling' with pid 4911
+2025-09-16 20:00:54,813 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:00:54,951 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:00:55,957 INFO spawned: 'intent_recognition' with pid 4918
+2025-09-16 20:00:55,958 INFO success: intent_handling entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:56,731 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:56,756 INFO spawned: 'text_to_speech' with pid 4939
+2025-09-16 20:00:56,777 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:56,840 INFO spawned: 'microphone' with pid 4946
+2025-09-16 20:00:56,850 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:56,958 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:56,958 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:57,965 INFO spawned: 'microphone' with pid 4956
+2025-09-16 20:00:57,969 INFO spawned: 'speech_to_text' with pid 4957
+2025-09-16 20:00:57,971 INFO spawned: 'text_to_speech' with pid 4958
+2025-09-16 20:00:58,108 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:00:58,142 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:00:59,495 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:00:59,986 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:01:01,003 INFO spawned: 'microphone' with pid 5506
+2025-09-16 20:01:01,007 INFO spawned: 'intent_handling' with pid 5507
+2025-09-16 20:01:01,009 INFO spawned: 'text_to_speech' with pid 5508
+2025-09-16 20:01:01,190 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:01,192 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:01:01,356 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:02,367 INFO spawned: 'intent_recognition' with pid 5530
+2025-09-16 20:01:02,371 INFO spawned: 'intent_handling' with pid 5531
+2025-09-16 20:01:02,373 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:02,549 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:01:02,712 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:03,646 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:01:04,653 INFO spawned: 'microphone' with pid 5558
+2025-09-16 20:01:04,656 INFO spawned: 'speech_to_text' with pid 5559
+2025-09-16 20:01:04,660 INFO spawned: 'intent_recognition' with pid 5560
+2025-09-16 20:01:04,663 INFO spawned: 'intent_handling' with pid 5564
+2025-09-16 20:01:04,960 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:01:05,339 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:01:06,151 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:06,152 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:06,180 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:07,189 INFO spawned: 'speech_to_text' with pid 6129
+2025-09-16 20:01:07,193 INFO spawned: 'text_to_speech' with pid 6130
+2025-09-16 20:01:07,340 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:08,681 INFO success: speech_to_text entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:08,685 INFO spawned: 'intent_handling' with pid 6669
+2025-09-16 20:01:08,688 INFO spawned: 'text_to_speech' with pid 6670
+2025-09-16 20:01:08,808 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:08,839 INFO exited: intent_handling (exit status 1; not expected)
+2025-09-16 20:01:09,841 INFO gave up: intent_handling entered FATAL state, too many start retries too quickly
+2025-09-16 20:01:09,935 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:10,053 INFO spawned: 'microphone' with pid 6683
+2025-09-16 20:01:10,122 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:10,192 INFO spawned: 'intent_recognition' with pid 6691
+2025-09-16 20:01:11,461 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:11,462 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:11,467 INFO spawned: 'text_to_speech' with pid 6714
+2025-09-16 20:01:12,579 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:12,815 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:01:13,822 INFO spawned: 'speech_to_text' with pid 6721
+2025-09-16 20:01:14,319 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:01:15,243 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:15,479 INFO spawned: 'microphone' with pid 7254
+2025-09-16 20:01:15,488 INFO spawned: 'speech_to_text' with pid 7255
+2025-09-16 20:01:15,542 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:15,677 INFO spawned: 'intent_recognition' with pid 7282
+2025-09-16 20:01:15,722 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:16,118 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:01:16,618 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:17,625 INFO spawned: 'microphone' with pid 7818
+2025-09-16 20:01:17,626 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:17,630 INFO spawned: 'text_to_speech' with pid 7819
+2025-09-16 20:01:18,762 INFO success: microphone entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:18,786 INFO spawned: 'speech_to_text' with pid 7835
+2025-09-16 20:01:18,787 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:19,325 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:01:21,015 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:22,036 INFO spawned: 'intent_recognition' with pid 8368
+2025-09-16 20:01:22,534 INFO spawned: 'speech_to_text' with pid 8389
+2025-09-16 20:01:22,583 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:22,813 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:22,861 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:22,862 INFO spawned: 'microphone' with pid 8408
+2025-09-16 20:01:22,863 INFO spawned: 'text_to_speech' with pid 8409
+2025-09-16 20:01:22,984 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:23,042 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:23,235 INFO exited: speech_to_text (exit status 1; not expected)
+2025-09-16 20:01:24,254 INFO spawned: 'microphone' with pid 8939
+2025-09-16 20:01:24,257 INFO gave up: speech_to_text entered FATAL state, too many start retries too quickly
+2025-09-16 20:01:24,259 INFO spawned: 'intent_recognition' with pid 8940
+2025-09-16 20:01:24,270 INFO spawned: 'text_to_speech' with pid 8942
+2025-09-16 20:01:24,468 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:24,586 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:24,690 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:26,722 INFO spawned: 'microphone' with pid 8977
+2025-09-16 20:01:26,730 INFO spawned: 'intent_recognition' with pid 8978
+2025-09-16 20:01:26,735 INFO spawned: 'text_to_speech' with pid 8979
+2025-09-16 20:01:26,942 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:27,025 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:27,173 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:30,204 INFO spawned: 'microphone' with pid 9015
+2025-09-16 20:01:30,209 INFO spawned: 'intent_recognition' with pid 9016
+2025-09-16 20:01:30,212 INFO spawned: 'text_to_speech' with pid 9017
+2025-09-16 20:01:30,412 INFO exited: microphone (exit status 1; not expected)
+2025-09-16 20:01:30,573 INFO gave up: microphone entered FATAL state, too many start retries too quickly
+2025-09-16 20:01:31,579 INFO success: intent_recognition entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:31,580 INFO success: text_to_speech entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-09-16 20:01:35,436 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:35,608 INFO spawned: 'text_to_speech' with pid 9053
+2025-09-16 20:01:35,740 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:35,796 INFO spawned: 'intent_recognition' with pid 9060
+2025-09-16 20:01:35,812 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:36,093 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:37,112 INFO spawned: 'intent_recognition' with pid 9081
+2025-09-16 20:01:37,118 INFO spawned: 'text_to_speech' with pid 9082
+2025-09-16 20:01:37,389 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:37,595 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:39,615 INFO spawned: 'intent_recognition' with pid 9109
+2025-09-16 20:01:39,622 INFO spawned: 'text_to_speech' with pid 9110
+2025-09-16 20:01:39,770 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:39,993 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:43,012 INFO spawned: 'intent_recognition' with pid 9137
+2025-09-16 20:01:43,016 INFO spawned: 'text_to_speech' with pid 9138
+2025-09-16 20:01:43,221 INFO exited: text_to_speech (exit status 1; not expected)
+2025-09-16 20:01:43,348 INFO gave up: text_to_speech entered FATAL state, too many start retries too quickly
+2025-09-16 20:01:43,374 INFO exited: intent_recognition (exit status 1; not expected)
+2025-09-16 20:01:44,379 INFO gave up: intent_recognition entered FATAL state, too many start retries too quickly
